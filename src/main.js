@@ -1,5 +1,10 @@
+import Phaser from 'phaser';
 import { MenuScene } from './scenes/MenuScene.js';
 import { MainScene } from './scenes/MainScene.js';
+
+if (typeof window !== 'undefined' && !window.Phaser) {
+    window.Phaser = Phaser;
+}
 
 const config = {
     type: Phaser.WEBGL,

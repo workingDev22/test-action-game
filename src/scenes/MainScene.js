@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import { WEAPONS } from '../config/weapons.js';
 import { GameStorage } from '../services/GameStorage.js';
 import { CyberAudio } from '../services/CyberAudio.js';

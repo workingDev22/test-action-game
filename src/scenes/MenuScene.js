@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import { ensureGameTextures, attachNeonBloom } from '../services/TextureGenerator.js';
 import { CyberAudio } from '../services/CyberAudio.js';
 import { GameStorage } from '../services/GameStorage.js';
